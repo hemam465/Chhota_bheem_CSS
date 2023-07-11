@@ -1,0 +1,47 @@
+body
+{
+background: url(./picure.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+#headings
+{
+color: white;
+background:black;
+width:700px;
+text-align: center;
+margin: auto;
+}
+#content
+{
+    display:flex;
+    background:rgba(0,0,0,0.7);
+    height: 500px;
+    width: 1140px;
+    margin:auto;
+    margin-top: 60px;
+    justify-content:space-around;
+}
+img
+{
+height:125px;
+width:150px;
+border: 3px solid white;
+border-top-left-radius: 50%;
+border-bottom-right-radius: 50%;
+border-top-right-radius:50%;
+border-bottom-left-radius:50%;
+
+margin-top:20px;
+margin-left:10px;
+}
+#title
+{
+    color:white;
+    display:flex;
+    width: 1140px;
+    background-color: black;
+    margin:auto;
+    justify-content: space-around;
+}
